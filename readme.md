@@ -5,23 +5,24 @@ $ git config --global user.name "nengkya"
 $ git config --global user.email nengkya@yahoo.com
 
 $ git branch -M main
-# -M -> Main
-# repository project on github.com branch named 'main'
+  -M -> Main
+  repository project on github.com branch named 'main'
 
 $ git add -A
 
 $ git commit -m "HaGa IT Solution :D"
 
 $ git remote add origin https://github.com/nengkya/HaGa-Text-Editor.git
-# origin = local project
-# connect local project to github repository
+  origin = local project
+  connect local project to github repository
 
 $ git push -u origin main
-# -u -> upstream dari origin local project menuju remote main
+  -u -> upstream dari origin local project menuju remote main
 
 https://tutorial.djangogirls.org/en/deploy/
 
 -----------------------------------------------------------------------
+
 
 
 $ git remote rm origin
