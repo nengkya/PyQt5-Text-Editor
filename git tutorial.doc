@@ -20,3 +20,15 @@ $ git push -u origin main
 # -u -> upstream dari origin local project menuju remote main
 
 https://tutorial.djangogirls.org/en/deploy/
+
+-----------------------------------------------------------------------
+
+
+$ git remote rm origin
+
+$ git remote add origin git@github.com:nengkya/PyQt5-Text-Editor.git
+
+$ git push --set-upstream origin primary
+
+
+https://stackoverflow.com/questions/10904339/github-fatal-remote-origin-already-exists
