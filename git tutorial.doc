@@ -6,7 +6,7 @@ $ git config --global user.email nengkya@yahoo.com
 
 $ git branch -M main
 # -M -> Main
-# local project branch named 'main'
+# repository project on github.com branch named 'main'
 
 $ git add -A
 
